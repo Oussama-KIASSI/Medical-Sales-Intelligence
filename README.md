@@ -39,7 +39,7 @@ Medical-Sales-Intelligence
 │   │       ETL.zip
 │   │       ETL_support_live.zip
 │   │
-│   ├───Data Warehouse
+│   ├───Data Warehousing
 │   │       create_data_warehouse.sql
 │   │
 │   ├───Exploratory Data Analysis
