@@ -5,7 +5,7 @@ To exploit this project follow these steps:
 - Azure Blob Storage
 - Azure Data Factory
 - Azure SQL Database
-4 - Run [create_data_warehouse.sql](Development/"Data Warehousing"/create_data_warehouse.sql) on Azure SQL Database you have created
+4 - Run [create_data_warehouse.sql](../Development/Data Warehousing/create_data_warehouse.sql) on Azure SQL Database you have created
 - Connect SSMS to the Azure SQL Database
 - Run the script
 5 - Import the ETL pipeline file to Azure Data Factory
