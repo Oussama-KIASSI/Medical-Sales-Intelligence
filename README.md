@@ -1,3 +1,5 @@
+This Business Intelligence Project is about medical products sales intelligence. We will be working on two fact tables and four dimensions using Python for data exploration, Microsoft Azure as a cloud provider to host our solution, and Microsoft Power BI as a reporting tool.
+
 To exploit this project follow these steps:
 
 1. Run pip install -r requirements.txt
