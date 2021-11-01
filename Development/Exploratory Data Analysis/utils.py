@@ -86,10 +86,10 @@ def plot_cat_dist(data: _pd.DataFrame, orient: str = "h", n: int = 10):
     for i, c in enumerate(data.select_dtypes(['object']).columns):
         # plot count plot
         figure(i)
-        if orient == "v": # vertical countplot
-            countplot(x=c, palette='mako', data=data, order=data[c].value_counts().iloc[:n].index)
-        else: # horizontal countplot
+        if orient == "h":  # horizontal countplot
             countplot(y=c, palette='mako', data=data, order=data[c].value_counts().iloc[:n].index)
+        else:  # vertical countplot
+            countplot(x=c, palette='mako', data=data, order=data[c].value_counts().iloc[:n].index)
         show()
 
 
